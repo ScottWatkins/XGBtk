@@ -1,0 +1,13 @@
+name = "XGBtk"
+uuid = "0c1ae2c5-b369-4e79-958d-7bae0a6b4a8d"
+authors = ["ScottWatkins <scott.watkins@genetics.utah.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
